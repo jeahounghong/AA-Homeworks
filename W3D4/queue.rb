@@ -7,10 +7,12 @@ class Queue
 
     def enqueue(el)
         @queue << el
+        self
     end
 
     def dequeue
         @queue.shift
+        self
     end
 
     def peek
@@ -19,3 +21,4 @@ class Queue
     end
 
 end
+
