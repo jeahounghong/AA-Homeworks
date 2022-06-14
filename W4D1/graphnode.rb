@@ -23,6 +23,8 @@ class GraphNode
         node.neighbors.each do |neighbor|
             depth_first(neighbor, visited);
         end
+
+        
     end
 
     
