@@ -655,3 +655,10 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/session/new" for ::1 at 2022-07-04 20:15:33 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
